@@ -24,7 +24,7 @@ fun FilmeScreen(viewModel:FilmeViewModel = viewModel()) {
             OutlinedTextField(
                 value = query,
                 onValueChange = { query = it },
-                label = { Text("Buscar livro") },
+                label = { Text("Buscar Filme") },
                 modifier = Modifier.weight(1f)
             )
             Spacer(Modifier.width(8.dp))
